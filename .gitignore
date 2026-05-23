@@ -1,0 +1,29 @@
+# Rust build artefacts
+/target/
+**/*.rs.bk
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Never publish these � defence in depth
+*.xbe
+*.iso
+*.bin
+*.dmp
+*.bik
+*.xbs
+*.dds
+*.fon
+*.db
+*.bmp
+*.png
+# Allow the README gameplay screenshot through the broad *.png ignore
+!gameplay-spiderman.png
+*.log
+*.raw
